@@ -16,18 +16,19 @@ body {
 /* navbar */
 
 header {
-    background-color: rgb(46, 209, 197);
+    background-color: #2ed1c5;
+    width: 100%;
 }
 
-header > div {
+header > div > div{
     float: left;
-    margin: 15px 10px 15px 10px;
     border-radius: 24px;
     border: 2px solid transparent;
     transition: border 0.5s;
+    margin-top: 12px;
 }
 
-header > div:hover {
+header > div > div:hover {
     border: 2px solid #fff;
 }
 
@@ -40,7 +41,7 @@ header > div:hover {
     color: #fff;
 }
 
-header> div > a {
+header> div > div > a {
     text-decoration: none;
 }
 
@@ -87,7 +88,7 @@ header> div > a {
     height: 55vh;
 
     /* animates zoom effect on the loading page */
-    animation-name: hero-zoom;
+     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
@@ -102,12 +103,24 @@ header> div > a {
     }
 }
 
-#lorem {
-    width: 20%;
-    color: transparent;
-}
-
 .navbar {
     position: sticky;
     top: 0;
 }
+
+
+/* Welcome message */
+ #welcome-message-outer {
+    display: flex;
+    justify-content: center;
+}
+
+#welcome-message {
+    background-color: #58DAD1;
+    width: 400px;
+    height: 100px;
+}
+
+#welcome-message > h1 {
+    text-align: center;
+} 
