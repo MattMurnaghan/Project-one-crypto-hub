@@ -151,8 +151,8 @@ header a {
     font-weight: 400;
 }
 
-#welcome-row-1 {
-    background-color: red;
+.welcome-row {
+    background-color: rgb(241, 241, 241);
     text-align: left;
     align-self: flex-start;
     color: inherit;
@@ -160,33 +160,51 @@ header a {
 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 
-    width: 70%;
-    margin-left: 15%;
+    width: 76%;
+    margin-left: 12%;
     font-size: 120%;
 }
 
-#welcome-row-1-text {
-    width: 55%;
-    background-color: blue;
+.welcome-row-text{
+    width: 45%;
+    background-color: #58DAD1;
+    box-shadow: 2px 0.5px 2px 0.5px #58dad1ab;
+    border-radius: 8px;
+    margin-bottom: 15px;
+
     color: inherit;
     display: flex;
     align-items: center;
     text-align: center;
 }
 
-#welcome-row-1 p{
+.welcome-row-text p{
     color: inherit;
+}
+
+.welcome-image {
+    background-color: green;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding: 30px;
+    border: 1px solid #ccc;
+
+    
+    color: inherit;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 #welcome-image-1 {
-    background-color: green;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    color: inherit;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    background: url(/assets/images/christina-wocintechchat-com-HocFQHhGjDE-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#welcome-image-2 {
+    background: url(/assets/images/linkedin-sales-solutions-EI50ZDA-l8Y-unsplash.jpg) no-repeat center center;
+    background-size: cover;
 }
