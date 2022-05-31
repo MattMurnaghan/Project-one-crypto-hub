@@ -26,6 +26,7 @@ header > div > div{
     border: 2px solid transparent;
     transition: border 0.5s;
     margin-top: 12px;
+    margin-left: 5px;
 }
 
 header > div > div:hover {
@@ -51,12 +52,10 @@ header> div > div > a {
 
 #menu {
     line-height: 75px;
-}
-
-#menu {
     font-size: 90%;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     text-align: right;
+    margin-right: 5px;
 }
 
 #menu li {
@@ -120,18 +119,23 @@ header a {
 /* Welcome message */
  #welcome-message-outer {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: #fff;
 }
 
 #welcome-message {
     background-color: #58DAD1;
-    width: 400px;
-    height: 100px;
     margin-top: 20px;
+    width: 60%;
+    font-size: 200%;
     border-radius: 8px;
     text-align: center;
     box-shadow: 2px 0.5px 2px 0.5px #58dad1ab;
-    color: #fff;
+    color: inherit;
+
+    margin-bottom: 3vh;
 } 
 
 #welcome-message hr {
@@ -145,4 +149,44 @@ header a {
 #welcome-message p {
     padding-top: 5px;
     font-weight: 400;
+}
+
+#welcome-row-1 {
+    background-color: red;
+    text-align: left;
+    align-self: flex-start;
+    color: inherit;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 70%;
+    margin-left: 15%;
+    font-size: 120%;
+}
+
+#welcome-row-1-text {
+    width: 55%;
+    background-color: blue;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#welcome-row-1 p{
+    color: inherit;
+}
+
+#welcome-image-1 {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
