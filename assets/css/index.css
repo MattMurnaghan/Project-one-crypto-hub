@@ -126,15 +126,12 @@ header a {
 }
 
 #welcome-message {
-    background-color: #58DAD1;
     margin-top: 20px;
     width: 60%;
     font-size: 200%;
     border-radius: 8px;
     text-align: center;
-    box-shadow: 2px 0.5px 2px 0.5px #58dad1ab;
-    color: inherit;
-
+    color: #58dad1;
     margin-bottom: 3vh;
 } 
 
@@ -152,19 +149,18 @@ header a {
 }
 
 .welcome-row {
-    background-color: rgb(241, 241, 241);
+    background-color: rgba(88, 218, 209, 0.3);
     text-align: left;
     align-self: flex-start;
     color: inherit;
-
-
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
-    width: 76%;
-    margin-left: 12%;
+    width: 100%;
     font-size: 120%;
+    padding: 30px;
+    margin-bottom: 2vh;
+    border-radius: 15px;
 }
 
 .welcome-row-text{
@@ -173,6 +169,7 @@ header a {
     box-shadow: 2px 0.5px 2px 0.5px #58dad1ab;
     border-radius: 8px;
     margin-bottom: 15px;
+    font-size: 130%;
 
     color: inherit;
     display: flex;
@@ -190,7 +187,8 @@ header a {
     height: 250px;
     border-radius: 50%;
     padding: 30px;
-    border: 1px solid #ccc;
+    border: 5px solid #fff;
+
 
     
     color: inherit;
