@@ -118,7 +118,7 @@ header a {
 
 
 /* Welcome message */
- #welcome-message-outer {
+ .welcome-message-outer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -126,7 +126,7 @@ header a {
     color: #fff;
 }
 
-#welcome-message {
+.welcome-message {
     margin-top: 20px;
     width: 60%;
     font-size: 200%;
@@ -136,15 +136,11 @@ header a {
     margin-bottom: 3vh;
 } 
 
-#welcome-message hr {
-    border-top: 3px solid #fff;
-}
-
-#welcome-message h1, #welcome-message p {
+.welcome-message h1, .welcome-message p {
     color: inherit;
 }
 
-#welcome-message p {
+.welcome-message p {
     padding-top: 5px;
     font-weight: 400;
 }
@@ -160,8 +156,7 @@ header a {
     width: 100%;
     font-size: 120%;
     padding: 30px 0;
-    margin-bottom: 2vh;
-    border-radius: 15px;
+    /* border-radius: 15px; */
 }
 
 .welcome-row-text{
@@ -180,7 +175,7 @@ header a {
 
 }
 
-.welcome-row-text p{
+.welcome-row-text p, .welcome-row-text i{
     color: inherit;
 }
 
@@ -201,7 +196,7 @@ header a {
     width: 300px;
     border-radius: 50%;
 
-    border: 5px solid #fff;
+    border: 10px solid #fff;
 
     display: grid;
     place-items: center;
@@ -231,7 +226,9 @@ header a {
 .welcome-image-text {
     opacity: 0;
     color: #fff;
-    font-size: 1.8rem;
+    font-size: 1.1rem;
+    width: 70%;
+    text-align: center;
 
     transition: opacity 400ms, transform 400ms;
 }
@@ -241,3 +238,6 @@ header a {
     opacity: 1;
 }
 
+#welcome-image-wrapper-2 {
+    margin-left: 5%;
+}
