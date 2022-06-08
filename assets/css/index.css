@@ -162,10 +162,11 @@ header a {
 .welcome-row-text{
     width: 45%;
     background-color: #58DAD1;
-    box-shadow: 3px 3px 3px 3px #fff;
+    box-shadow: 4px 4px 4px 4px #fff;
     border-radius: 8px;
     margin-bottom: 15px;
     font-size: 130%;
+    font-weight: 600;
 
     color: inherit;
     display: flex;
@@ -240,4 +241,22 @@ header a {
 
 #welcome-image-wrapper-2 {
     margin-left: 5%;
+}
+
+
+.social-networks {
+    text-align: center;
+    background-color: #58dad1;
+    border-top: 10px solid #fff;
+}
+
+.social-networks > li{
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #fff;
 }
