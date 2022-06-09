@@ -18,13 +18,30 @@ The business goal for this site is to:
 2. Generate an interest in cryptocurrency and a desire to further get involved through trading and exploring other services available in the crypto space
 3. Generate revenue through collection of user data and a large mailing list to sell to advertisers and other finance affiliated products. 
 ## User Goals
+The site is primarily focused on first time users as it offers updated content by way of a newsletter and discord server. However, there are some recurring user benefits outlined below:
 ### First time visitors:
 1. I want to easily find useful information regarding cryptocurrency, what it is and how it affects me.
 2. I want to learn how I can buy cryptocurrency and what I can do with it after I buy.
 3. I want to easily sign up to a newsletter and/or discord server to learn more and stay up to date with new info in the crypto space.
 
+### Recurring Visitors
+1. I want to review the glossary of terms to better understand how to assess the performance of currencies in the market.
+2. I want to review any updated content to stay up to date with market trends.
+3. I want to easily find affiliate links to different social media platforms related to the presented material.
+
+## UX Strategy
+---
+Crypto Hub aims to bring users on a journey, in line with core UX principles: 
+### Target Audience
+The site is aimed at users of all ages, as cryptocurrency is still a mysterious topic for many. However, there is a slight leaning towards users aged 18-30, as these users are typically further willing to invest in newer opportunites, rather than more established stock holdings and investment opportunites.
+
+### User Journey
+The typical first time user on this site is someone with little to no experience in the cryptospace. As such, the journey should take a user from a novice position, to one who feels they understand the crypto-space enough to begin to invest and explore other associated products.
+
 ### Welcome page
-This page welcomes the user to the site,  defines what a cryptocurrency is and how it affects the economy and what its purpose is.
+* This page welcomes the user to the site,  defines what a cryptocurrency is, how it affects the economy and what its purpose is in the global economy. 
+* The goal of this page is to introduce crypto in a way that is unambiguous.
+* The imagery and text should highlight the colaborative aspect of cryptocurrency and the individuals and groups (countries and companies) that are starting to embrace cryptocurrency as a new legal tender and means of trade.
 
 ### Guides - How does it work?
 
@@ -41,3 +58,9 @@ This page lists some of the most popular exchanges where you can invest and some
 
 ### Contact us - Meet like minded individuals
 This page gives site visitors the opportunity to sign up to a mailing list and connect with other like minded individuals. It also gives a link to a discord channel where people who subscribe can talk investments and ask questions.
+
+
+### Assumed content requirement:
+There are a few key elements for the requirements of a typical user:
+
+*Information is clear and concise 
