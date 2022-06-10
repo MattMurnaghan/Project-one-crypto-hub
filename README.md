@@ -38,17 +38,17 @@ The site is aimed at users of all ages, as cryptocurrency is still a mysterious 
 ### User Journey
 The typical first time user on this site is someone with little to no experience in the cryptospace. As such, the journey should take a user from a novice position, to one who feels they understand the crypto-space enough to begin to invest and explore other associated products.
 
-### Welcome page
+### Welcome page - A gentle introduction
 * This page welcomes the user to the site,  defines what a cryptocurrency is, how it affects the economy and what its purpose is in the global economy. 
 * The goal of this page is to introduce crypto in a way that is unambiguous.
 * The imagery and text should highlight the colaborative aspect of cryptocurrency and the individuals and groups (countries and companies) that are starting to embrace cryptocurrency as a new legal tender and means of trade.
 
 ### Guides - How does it work?
-
-This page defines the different ways to buy crypto, how to store it and a few video links to some helpful explanatory videos.
+* This page defines the different ways to buy crypto, how to store it and a few video links to some helpful explanatory videos.
+* A visitor should have a basic grasp of what cryptocurrency is now and will be looking to learn about how they can get involved and what to do once they have purchased their own crypto.
 
 ### Currencies - Popular currency review 
-This page goes through some of the most popular currencies and the fundamental differences between them
+* This page goes through some of the most popular currencies and the fundamental differences between them
 
  ### Glossary - Terminology explained
 This page goes through some of the more complicated terms when it comes to investing in crypto. It's purpose is to make it easier for a novice investor to make informed decisions about their investments.
