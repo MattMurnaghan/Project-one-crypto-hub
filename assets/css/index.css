@@ -129,15 +129,15 @@ header a {
 .welcome-message {
 
     margin-top: 20px;
-    width: 60%;
+    height: 80px;
+    width: 900px;
+    line-height: 80px;
     font-size: 200%;
     border-radius: 38px;
     text-align: center;
     color: #fff;
     margin-bottom: 3vh;
-    height: 10vh;
     background-color: #2dd1c5;
-    line-height: 10vh;
     border: 3px solid #fff;
     align-self: center;
 

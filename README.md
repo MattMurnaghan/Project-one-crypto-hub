@@ -65,3 +65,8 @@ There are a few key elements for the requirements of a typical user:
 
 *Information is clear and concise 
 
+## Bug Fixes and Issues
+There were multiple bugs encountered during the development of this project. These were listed along with the methods employed as solutions to each.
+
+### Working with percentages
+An issue I found when working with 
