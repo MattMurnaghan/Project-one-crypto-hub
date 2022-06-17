@@ -64,3 +64,4 @@ This page gives site visitors the opportunity to sign up to a mailing list and c
 There are a few key elements for the requirements of a typical user:
 
 *Information is clear and concise 
+
