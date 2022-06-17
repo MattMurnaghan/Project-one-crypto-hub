@@ -70,3 +70,7 @@ There were multiple bugs encountered during the development of this project. The
 
 ### Working with percentages
 An issue I found when working with 
+
+![percentages bug 1](docs/images/percentages%20bug%20%231.jpg)
+
+![percentages bug 2](docs/images/percentages%20bug%20%232.jpg)
