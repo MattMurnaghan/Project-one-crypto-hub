@@ -69,8 +69,9 @@ There are a few key elements for the requirements of a typical user:
 There were multiple bugs encountered during the development of this project. These were listed along with the methods employed as solutions to each.
 
 ### Working with percentages
-An issue I found when working with 
+An issue I found when working with percentages was scaling. When adjusting the zoom/resolution for the site, i found that some of the divs were scaling improperly. They were shrinking too a point where they could not hold their content. As well as that. The title dive was changing size and proportion to where it was not consistent with the design theme for the rest of the home page. (See examples below)
 
-![percentages bug 1](docs/images/percentages%20bug%20%231.jpg)
+![percentages bug 1\label{percentages fig. 1}](docs/images/percentages%20bug%20%231.jpg)
+
 
 ![percentages bug 2](docs/images/percentages%20bug%20%232.jpg)
