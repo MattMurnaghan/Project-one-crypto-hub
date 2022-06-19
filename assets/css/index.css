@@ -288,33 +288,29 @@ header a {
 }
 
 /* Mobile - 950px and below */
-@media screen and (max-wdith: 950px) {
+@media screen and (max-width: 950px) {
     .row {
         height: 520px;
         text-align: left;
-        align-self: flex-start;
         color: inherit;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         width: 100%;
         font-size: 120%;
-        align-items: center;
+        display: block;
+    }
+
+    .row-text {
+        clear: both;
     }
 
     #row-2-text,
     #row-4-text,
     #row-6-text {
-        margin-bottom: 15px;
-        align-self: center;
         margin: 15px 100px 15px 100px;
     }
 
     #row-1-text,
     #row-3-text,
     #row-5-text {
-        margin-bottom: 15px;
-        align-self: center;
         margin: 15px 100px 15px 100px;
     }
 
