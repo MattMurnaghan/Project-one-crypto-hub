@@ -68,10 +68,24 @@ There are a few key elements for the requirements of a typical user:
 ## Bug Fixes and Issues
 There were multiple bugs encountered during the development of this project. These were listed along with the methods employed as solutions to each.
 
-### Working with percentages
-An issue I found when working with percentages was scaling. When adjusting the zoom/resolution for the site, i found that some of the divs were scaling improperly. They were shrinking too a point where they could not hold their content. As well as that. The title dive was changing size and proportion to where it was not consistent with the design theme for the rest of the home page. (See examples below)
+## Working with percentages
+### Issue
 
-![percentages bug 1\label{percentages fig. 1}](docs/images/percentages%20bug%20%231.jpg)
+* An issue I found when working with percentages was scaling. 
+* When adjusting the zoom/resolution for the site, I found that some of the divs were scaling improperly. They were shrinking too a point where they could not hold their content.
+* The title div was changing size and proportion to where it was not consistent with the design theme for the rest of the home page. (See fig. 1 & 2 below)
+
+|![percentages bug 1\label{percentages fig. 1}](docs/images/percentages%20bug%20%231.jpg)|
+|:--:|
+| <strong>Fig.1 Improper scaling when zooming out</strong>  |
 
 
-![percentages bug 2](docs/images/percentages%20bug%20%232.jpg)
+
+|![percentages bug 2](docs/images/percentages%20bug%20%232.jpg)|
+|:--:|
+| <strong>Fig.1 Improper scaling when zooming in</strong>  |
+
+
+### Fix 
+* In order to fix the issue, I started using fixed sizing in pixels for select element widths and heights. 
+* I had previously believed that using percentages and vh would be more responsive, but now I can see that using these measurements in the wrong place on a site can create unpredictable site behaviour.
