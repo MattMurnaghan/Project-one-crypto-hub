@@ -75,13 +75,13 @@ There were multiple bugs encountered during the development of this project. The
 * When adjusting the zoom/resolution for the site, I found that some of the divs were scaling improperly. They were shrinking too a point where they could not hold their content.
 * The title div was changing size and proportion to where it was not consistent with the design theme for the rest of the home page. (See fig. 1 & 2 below)
 
-|![percentages bug 1\label{percentages fig. 1}](docs/images/percentages%20bug%20%231.jpg)|
+|![percentages bug 1\label{percentages fig. 1}](docs/images/percentages/percentages%20bug%20%231.jpg)|
 |:--:|
 | <strong>Fig.1 Improper scaling when zooming out</strong>  |
 
 
 
-|![percentages bug 2](docs/images/percentages%20bug%20%232.jpg)|
+|![percentages bug 2](docs/images/percentages/percentages%20bug%20%232.jpg)|
 |:--:|
 | <strong>Fig.1 Improper scaling when zooming in</strong>  |
 
@@ -89,3 +89,6 @@ There were multiple bugs encountered during the development of this project. The
 ### Fix 
 * In order to fix the issue, I started using fixed sizing in pixels for select element widths and heights. 
 * I had previously believed that using percentages and vh would be more responsive, but now I can see that using these measurements in the wrong place on a site can create unpredictable site behaviour.
+
+## Link paths
+* An issue I found when launching my site to github pages were that some of my pictures were not loading in correctly.
