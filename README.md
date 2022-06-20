@@ -91,4 +91,25 @@ There were multiple bugs encountered during the development of this project. The
 * I had previously believed that using percentages and vh would be more responsive, but now I can see that using these measurements in the wrong place on a site can create unpredictable site behaviour.
 
 ## Link paths
-* An issue I found when launching my site to github pages were that some of my pictures were not loading in correctly.
+* An issue I found when launching my site to github pages were that one of my pictures was not loading in correctly.
+* I investigated the issue and found that I had referenced the image using relative pathing instead of absolute.
+
+### Issue
+|![percentages bug 1\label{percentages fig. 1}](docs/images/link-paths/broken-link-1.png)|
+|:--:|
+| <strong>Fig.3 Image not loading in correctly</strong>  |
+
+### Fix
+
+I updated the link from:
+    
+        <img id="image-1" class="image"
+                        src="/assets/images/women-by-window.jpg"
+                        alt="Two women sitting in a chair discussing investment opportunites beside a bright open window.">
+
+And changed it to:
+
+        <img id="image-1" class="image" 
+        src="assets/images/women-by-window.jpg" 
+        alt="Two women sitting in a chair discussing investment opportunites beside a bright open window.">
+                        
