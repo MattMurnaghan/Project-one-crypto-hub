@@ -123,16 +123,16 @@ header a {
 }
 
 .welcome-message {
-
     margin-top: 20px;
     height: 80px;
-    width: 900px;
+    width: 75%;
+    max-width: 900px;
     line-height: 80px;
     font-size: 200%;
     border-radius: 38px;
     text-align: center;
     color: #fff;
-    margin-bottom: 3vh;
+    margin-bottom: 20px;
     background-color: #2dd1c5;
     border: 3px solid #fff;
     align-self: center;
@@ -295,6 +295,10 @@ header a {
         height: 740px;
     }
 
+    .row-holder {
+        width: 600px;
+    }
+
     .row-text {
         float: none;
         clear: both;
@@ -303,12 +307,12 @@ header a {
 
     .image-wrapper-upper {
         float: left;
-        margin-left: 183px;
+        margin-left: 30px;
     }
 
     .image-wrapper-lower {
         float: right;
-        margin-right: 183px;
+        margin-right: 30px;
     }
 
     .image-wrapper-upper,
