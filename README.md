@@ -113,3 +113,8 @@ And changed it to:
         src="assets/images/women-by-window.jpg" 
         alt="Two women sitting in a chair discussing investment opportunites beside a bright open window.">
                         
+
+Here is the resulting image, loading in correctly
+|![percentages bug 1\label{percentages fig. 1}](docs/images/link-paths/broken-link-fix.png)|
+|:--:|
+| <strong>Fig.4 Image loading in correctly</strong>  |
