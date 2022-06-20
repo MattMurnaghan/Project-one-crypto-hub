@@ -46,6 +46,7 @@ header {
     border-radius: 20px;
     transition: border 0.5s;
     margin: 5px 15px;
+    z-index: 2;
 }
 
 #logo:hover{
@@ -173,34 +174,6 @@ header a {
     right: 0;
 }
 
-@media screen and (max-width: 948px){
-    .hamburger,
-    .toggle-menu {
-        display: block;
-    }
-
-    .toggle-menu,
-    .hamburger {
-        margin-right: 25px;
-    }
-
-    #menu {
-        justify-content: start;
-        flex-direction: column;
-        align-items: center;
-        position: fixed;
-        top: 50px;
-        right: -300px;
-        background-color: #2dd1c5;
-        width: 300px;
-    }
-
-    #menu li {
-        padding: 25px 0;
-    }
-
-}
-
 /* Hero Image */
 #hero-outer {
     overflow: hidden;
@@ -248,6 +221,7 @@ header a {
     align-items: center;
     width: 100%;
     color: #fff;
+
 }
 
 .welcome-message {
@@ -288,7 +262,6 @@ header a {
     width: 900px;
     height: 540px;
     margin: 0 auto;
-    background-color: rgba(218, 123, 88, 0.25);
 }
 
 .row {
@@ -418,6 +391,10 @@ header a {
 
 /* Mobile - 950px and below */
 @media screen and (max-width: 950px) {
+    .welcome-message {
+        font-size: 160%;
+    }
+
     .row-background,
     .row-holder {
         height: 740px;
@@ -446,5 +423,89 @@ header a {
     .image-wrapper-upper,
     .image-wrapper-lower {
         margin-bottom: 15px;
+    }
+
+    .hamburger,
+    .toggle-menu {
+        display: block;
+    }
+
+    .toggle-menu,
+    .hamburger {
+        margin-right: 25px;
+    }
+
+    #menu {
+        justify-content: start;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: 50px;
+        right: -300px;
+        background-color: #2dd1c5;
+        width: 300px;
+    }
+
+    #menu li {
+        padding: 25px 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    #menu {
+        width: 180px;
+        right: -180px;
+
+    }
+
+    .welcome-message {
+        margin-top: 20px;
+        height: 80px;
+        width: 75%;
+        max-width: 900px;
+        min-width: 340px;
+        line-height: 80px;
+        font-size: 115%;
+        border-radius: 38px;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 20px;
+        background-color: #2dd1c5;
+        border: 3px solid #fff;
+        align-self: center;
+    }
+
+    .row-holder {
+        width: 340px;
+    }
+
+    .row-holder,
+    .row-background {
+        height: 436px;
+    }
+
+    .row-text {
+        width: 300px;
+        height: 90px;
+        border-radius: 40px;
+        font-size: 80%;
+    }
+
+    .image-text {
+        font-size: 0.7rem;
+    }
+
+    .image-wrapper-upper {
+        margin-left: 12px;
+    }
+
+    .image-wrapper-lower {
+        margin-right: 12px;
+    }
+
+    .image-wrapper {
+        height: 142px;
+        width: 142px;
     }
 }
