@@ -20,7 +20,7 @@ header {
 }
 
 .active {
-    border-bottom: 2px solid #fff;
+    border-bottom: 3px solid #fff;
 }
 
 #logo {
@@ -416,13 +416,15 @@ header a {
         align-items: center;
         position: fixed;
         top: 50px;
-        right: -300px;
+        right: -50%;
         background-color: #036e7a;
-        width: 300px;
+        width: 50%;
     }
 
     #menu li {
         padding: 25px 0;
+        width: 100%;
+        border-bottom: solid 1px #fff;
     }
 
     .image-wrapper:is(:hover, :focus)>.image {
@@ -458,9 +460,10 @@ header a {
 @media screen and (max-width: 600px) {
 
     #menu {
-        width: 180px;
-        right: -180px;
-
+        /* width: 180px;
+        right: -180px; */
+        width: 50%;
+        right: -50%;
     }
 
     .welcome-message {
