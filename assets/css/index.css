@@ -27,7 +27,7 @@ header {
     font-size: 120%;
     height: 40px;
     font-weight: 700;
-    padding: 2px 5px 8px 5px;
+    padding: 2px 5px 15px 5px;
     border: 2px solid transparent;
     border-radius: 20px;
     transition: border 0.5s;
@@ -382,7 +382,7 @@ header a {
     .row-text {
         float: none;
         clear: both;
-        margin: 0 auto;
+        margin: 15px auto -5px auto;
     }
 
     .image-wrapper-upper {
