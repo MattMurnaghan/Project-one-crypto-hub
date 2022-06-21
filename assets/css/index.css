@@ -236,7 +236,6 @@ header a {
 .row-background {
     width: 100%;
     background-color:rgba(3, 110, 122, 0.3); 
-    /* rgba(88, 218, 209, 0.25); */
 }
 
 .row-holder {
@@ -350,7 +349,6 @@ header a {
 .social-networks {
     text-align: center;
     background-color:#036e7a;
-    /* #58dad1; */
     border-top: 20px solid #fff;
 }
 
