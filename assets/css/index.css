@@ -184,6 +184,7 @@ header a {
     position: sticky;
     top: 0;
     background-color: #036e7a;
+    border-bottom: solid 3px #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
