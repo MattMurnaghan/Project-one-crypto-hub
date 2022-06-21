@@ -4,24 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <meta name="description" content="crypto finance investing bitcoin">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="assets/css/index.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <h1>
-                <a href="index.html">Crypto Hub</a>
-            </h1>
-            <ul>
+    <header class="header">
+        <div id="logo">
+            <a href="index.html">
+                <h1>Crypto Hub</h1>
+            </a>
+        </div>
+        <nav class="navbar">
+            <label for="checkbox" class="for-access">label</label>
+            <input id="checkbox" type="checkbox" class="toggle-menu">
+            <div class="hamburger"></div>
+            <ul id="menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="guides.html">Guides</a></li>
                 <li><a href="currencies.html">Currencies</a></li>
                 <li><a href="glossary.html">Glossary</a></li>
                 <li><a href="exchanges.html">Exchanges</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
             </ul>
         </nav>
-    </header>
+</header>
     <section>
         Contact us
     </section>
@@ -35,7 +43,20 @@
         Link to our discord
     </section>
     <footer>
-        socials
+        <ul class="social-networks">
+            <li><a href="http://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="http://twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit our twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li><a href="http://youtube.com" target="_blank" rel="noopener"
+                    aria-label="Visit our youtube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+            </li>
+            <li><a href="http://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a></li>
+        </ul>
     </footer>
+
+    <script src="https://kit.fontawesome.com/33033cbf37.js" crossorigin="anonymous"></script>
 </body>
 </html>
