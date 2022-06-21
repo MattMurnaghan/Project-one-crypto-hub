@@ -441,15 +441,12 @@ header a {
     }
 
     .image-text {
-    background-color: rgba(3, 110, 122, 0.5); 
-
-    /* rgba(13, 122, 3, 0.25); */
-
-        /* background-color: rgba(88, 218, 209, 0.75); */
+        background-color: rgba(3, 110, 122, 0.5); 
         transition: none;
         opacity: 1;
         border-radius: 15px;
         border: solid 2px #fff;
+        padding: 5px;
     }
 
     .image-wrapper-upper .image-text {
