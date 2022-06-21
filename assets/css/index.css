@@ -130,6 +130,10 @@ header a {
     display: none;
 }
 
+.for-access {
+    opacity: 0;
+}
+
 .navbar input:checked ~ .hamburger {
     background: transparent;
 }
