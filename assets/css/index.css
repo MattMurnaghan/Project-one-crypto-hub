@@ -289,8 +289,8 @@ i {
 
 .row-center {
     margin: 0 auto;
-    width: 800px;
-    height: 175px;
+    width: 900px;
+    /* height: 175px; */
     background-color: #036e7a;
     border-radius: 60px;
     margin: 15px 0 0 0;
@@ -308,11 +308,12 @@ i {
 }
 
 .row-center p {
-    padding: 5px;
+    padding: 10px;
 }
 
 hr {
     width: 90%;
+    padding-bottom: 10px;
     border-bottom: solid 3px #fff;
 }
 
