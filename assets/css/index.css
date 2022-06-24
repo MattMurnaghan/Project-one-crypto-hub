@@ -16,7 +16,7 @@ body {
 /* navbar */
 header {
     background: rgb(3,110,122);
-background: linear-gradient(90deg, rgba(3,110,122,1) 22%, rgba(32,217,176,1) 84%);
+background: linear-gradient(90deg, rgba(3,110,122,1) 29%, rgba(32,217,190,1) 94%);
 
     width: 100%;
     z-index: 2;
@@ -191,7 +191,7 @@ header a {
     position: sticky;
     top: 0;
     background: rgb(3,110,122);
-background: linear-gradient(90deg, rgba(3,110,122,1) 22%, rgba(32,217,176,1) 84%);
+background: linear-gradient(90deg, rgba(3,110,122,1) 29%, rgba(32,217,190,1) 94%);
     border-bottom: solid 3px #fff;
     display: flex;
     justify-content: space-between;
@@ -221,7 +221,7 @@ background: linear-gradient(90deg, rgba(3,110,122,1) 22%, rgba(32,217,176,1) 84%
     color: #fff;
     margin-bottom: 20px;
     background: rgb(3,110,122);
-background: linear-gradient(90deg, rgba(3,110,122,1) 22%, rgba(32,217,176,1) 84%);
+background: linear-gradient(90deg, rgba(3,110,122,1) 29%, rgba(32,217,190,1) 94%);
     border: 3px solid #fff;
     align-self: center;
 
@@ -240,12 +240,14 @@ background: linear-gradient(90deg, rgba(3,110,122,1) 22%, rgba(32,217,176,1) 84%
 /* rows */
 .row-background {
     width: 100%;
-    background-color: rgba(3, 110, 122, 0.3);
+    /* background-color: rgba(3, 110, 122, 0.3); */
+    background: rgba(3,110,122,0.3);
+background: linear-gradient(90deg, rgba(3,110,122,0.6) 22%, rgba(32,217,176,0.6) 84%);
 }
 
 .row-holder {
-    width: 900px;
-    height: 540px;
+    width: 70vw;
+    /* height: 540px; */
     margin: 0 auto;
 }
 
@@ -265,7 +267,7 @@ background: linear-gradient(90deg, rgba(3,110,122,1) 22%, rgba(32,217,176,1) 84%
     width: 550px;
     height: 175px;
     background: rgb(3,110,122);
-background: linear-gradient(90deg, rgba(3,110,122,1) 22%, rgba(32,217,176,1) 84%);
+/* background: linear-gradient(90deg, rgba(3,110,122,1) 29%, rgba(32,217,190,1) 94%); */
     border-radius: 60px;
     margin-bottom: 15px;
     font-size: 120%;
@@ -294,12 +296,11 @@ i {
 }
 
 .row-center {
-    margin: 0 auto;
-    width: 900px;
+    margin: 15px auto;
+    width: 60vw;
     /* height: 175px; */
     background-color: #036e7a;
     border-radius: 60px;
-    margin: 15px 0 0 0;
     font-size: 120%;
     font-weight: 400;
     color: inherit;
@@ -386,7 +387,7 @@ hr {
     text-align: center;
     background: rgb(3, 110, 122);
     background: rgb(3,110,122);
-background: linear-gradient(90deg, rgba(3,110,122,1) 22%, rgba(32,217,176,1) 84%);
+background: linear-gradient(90deg, rgba(3,110,122,1) 29%, rgba(32,217,190,1) 94%);
     border-top: 20px solid #fff;
 }
 
@@ -411,14 +412,16 @@ background: linear-gradient(90deg, rgba(3,110,122,1) 22%, rgba(32,217,176,1) 84%
         font-size: 160%;
     }
 
-    .row-background,
+    /* .row-background,
     .row-holder {
         height: 740px;
-    }
+    } */
 
-    .row-holder {
-        width: 600px;
+    /* .row-holder {
+        width: 60vw;
     }
+    
+    .row-center */
 
     .row-text {
         float: none;
@@ -461,8 +464,8 @@ background: linear-gradient(90deg, rgba(3,110,122,1) 22%, rgba(32,217,176,1) 84%
         width: 50%;
         margin-top: 24px;
 
-        background: rgb(3, 110, 122);
-        background: linear-gradient(90deg, rgba(3, 110, 122, 1) 64%, rgba(32, 217, 176, 1) 96%);
+        background: rgb(3,110,122);
+background: linear-gradient(90deg, rgba(3,110,122,1) 29%, rgba(32,217,190,1) 94%);
     }
 
     #menu li {
@@ -525,14 +528,14 @@ background: linear-gradient(90deg, rgba(3,110,122,1) 22%, rgba(32,217,176,1) 84%
         align-self: center;
     }
 
-    .row-holder {
-        width: 340px;
-    }
+    /* .row-holder {
+        width: 60vw;
+    } */
 
-    .row-holder,
+    /* .row-holder,
     .row-background {
         height: 450px;
-    }
+    } */
 
     .row-text {
         width: 300px;
