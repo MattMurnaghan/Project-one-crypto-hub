@@ -323,8 +323,12 @@ i {
     border: 4px solid #fff;
 }
 
-.row-center p {
-    padding: 10px;
+.row-center ul {
+    padding: 15px;
+}
+
+.row-center p, li {
+    padding: 5px;
 }
 
 hr {
@@ -546,7 +550,8 @@ hr {
     }
 
     .image-text {
-        font-size: 0.7rem;
+
+        font-size: 0.55rem;
     }
 
     .image-wrapper-upper {
