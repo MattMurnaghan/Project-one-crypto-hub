@@ -15,8 +15,8 @@ body {
 
 /* navbar */
 header {
-    background: rgb(3,110,122);
-background: linear-gradient(90deg, rgba(3,110,122,1) 29%, rgba(32,217,190,1) 94%);
+    background: rgb(3, 110, 122);
+    background: linear-gradient(90deg, rgba(3, 110, 122, 1) 29%, rgba(32, 217, 190, 1) 94%);
 
     width: 100%;
     z-index: 2;
@@ -190,8 +190,8 @@ header a {
 .header {
     position: sticky;
     top: 0;
-    background: rgb(3,110,122);
-background: linear-gradient(90deg, rgba(3,110,122,1) 29%, rgba(32,217,190,1) 94%);
+    background: rgb(3, 110, 122);
+    background: linear-gradient(90deg, rgba(3, 110, 122, 1) 29%, rgba(32, 217, 190, 1) 94%);
     border-bottom: solid 3px #fff;
     display: flex;
     justify-content: space-between;
@@ -220,8 +220,8 @@ background: linear-gradient(90deg, rgba(3,110,122,1) 29%, rgba(32,217,190,1) 94%
     text-align: center;
     color: #fff;
     margin-bottom: 20px;
-    background: rgb(3,110,122);
-background: linear-gradient(90deg, rgba(3,110,122,1) 29%, rgba(32,217,190,1) 94%);
+    background: rgb(3, 110, 122);
+    background: linear-gradient(90deg, rgba(3, 110, 122, 1) 29%, rgba(32, 217, 190, 1) 94%);
     border: 3px solid #fff;
     align-self: center;
 
@@ -241,14 +241,22 @@ background: linear-gradient(90deg, rgba(3,110,122,1) 29%, rgba(32,217,190,1) 94%
 .row-background {
     width: 100%;
     /* background-color: rgba(3, 110, 122, 0.3); */
-    background: rgba(3,110,122,0.3);
-background: linear-gradient(90deg, rgba(3,110,122,0.6) 22%, rgba(32,217,176,0.6) 84%);
+    background: rgba(3, 110, 122, 0.3);
+    background: linear-gradient(90deg, rgba(3, 110, 122, 0.6) 22%, rgba(32, 217, 176, 0.6) 84%);
 }
 
 .row-holder {
     width: 70vw;
     /* height: 540px; */
     margin: 0 auto;
+}
+
+
+
+#row-holder-1-home,
+#row-holder-2-home,
+#row-holder-3-home {
+    width: 900px;
 }
 
 .row {
@@ -266,10 +274,10 @@ background: linear-gradient(90deg, rgba(3,110,122,0.6) 22%, rgba(32,217,176,0.6)
 .row-text {
     width: 550px;
     height: 175px;
-    background: rgb(3,110,122);
-/* background: linear-gradient(90deg, rgba(3,110,122,1) 29%, rgba(32,217,190,1) 94%); */
+    background: rgb(3, 110, 122);
+    /* background: linear-gradient(90deg, rgba(3,110,122,1) 29%, rgba(32,217,190,1) 94%); */
     border-radius: 60px;
-    margin-bottom: 15px;
+    /* margin: 15px auto 15px auto; */
     font-size: 120%;
     font-weight: 400;
     color: inherit;
@@ -286,12 +294,13 @@ i {
 }
 
 .row-upper {
-    margin: 15px 0 0 0;
+    margin: 15px 0 7.5px 0;
     float: left;
 }
 
 .row-lower {
-    margin: 45px 0 0 0;
+    /* margin: 45px 0 15px 0; */
+    margin: 7.5px 0 15px 0;
     float: right;
 }
 
@@ -326,20 +335,21 @@ hr {
 
 /* image wrappers */
 .image-wrapper-upper {
-    margin: 15px 0 0 0;
+    /* margin: 15px 0 15px 0; */
+    margin: 15px 0 7.5px 0;
     float: right;
     clear: right;
 }
 
 .image-wrapper-lower {
-    margin: 15px 0 15px 0;
+    margin: 7.5px 0 15px 0;
     float: left;
-    clear: right;
+    /* clear: right; */
 }
 
 .image-wrapper {
-    height: 250px;
-    width: 250px;
+    height: 213px;
+    width: 213px;
     border-radius: 26%;
     border: 4px solid #fff;
     display: grid;
@@ -386,8 +396,8 @@ hr {
 .social-networks {
     text-align: center;
     background: rgb(3, 110, 122);
-    background: rgb(3,110,122);
-background: linear-gradient(90deg, rgba(3,110,122,1) 29%, rgba(32,217,190,1) 94%);
+    background: rgb(3, 110, 122);
+    background: linear-gradient(90deg, rgba(3, 110, 122, 1) 29%, rgba(32, 217, 190, 1) 94%);
     border-top: 20px solid #fff;
 }
 
@@ -412,36 +422,30 @@ background: linear-gradient(90deg, rgba(3,110,122,1) 29%, rgba(32,217,190,1) 94%
         font-size: 160%;
     }
 
-    /* .row-background,
-    .row-holder {
-        height: 740px;
-    } */
-
-    /* .row-holder {
-        width: 60vw;
+    #row-holder-1-home,
+    #row-holder-2-home,
+    #row-holder-3-home {
+        width: 600px;
     }
-    
-    .row-center */
 
     .row-text {
         float: none;
         clear: both;
-        margin: 15px auto -5px auto;
     }
 
     .image-wrapper-upper {
         float: left;
-        margin-left: 30px;
+        margin: 7.5px 0 7.5px 55px;
     }
 
     .image-wrapper-lower {
         float: right;
-        margin-right: 30px;
+        margin: 7.5px 55px 0 7.5px;
     }
 
     .image-wrapper-upper,
     .image-wrapper-lower {
-        margin-bottom: 15px;
+        margin-top: 0px;
     }
 
     .hamburger,
@@ -464,8 +468,8 @@ background: linear-gradient(90deg, rgba(3,110,122,1) 29%, rgba(32,217,190,1) 94%
         width: 50%;
         margin-top: 24px;
 
-        background: rgb(3,110,122);
-background: linear-gradient(90deg, rgba(3,110,122,1) 29%, rgba(32,217,190,1) 94%);
+        background: rgb(3, 110, 122);
+        background: linear-gradient(90deg, rgba(3, 110, 122, 1) 29%, rgba(32, 217, 190, 1) 94%);
     }
 
     #menu li {
@@ -502,7 +506,7 @@ background: linear-gradient(90deg, rgba(3,110,122,1) 29%, rgba(32,217,190,1) 94%
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
 
     #menu {
         /* width: 180px;
@@ -513,12 +517,12 @@ background: linear-gradient(90deg, rgba(3,110,122,1) 29%, rgba(32,217,190,1) 94%
 
     .section-title {
         margin-top: 20px;
-        height: 80px;
+        height: 60px;
         width: 75%;
         max-width: 900px;
         min-width: 340px;
-        line-height: 80px;
-        font-size: 115%;
+        line-height: 60px;
+        font-size: 100%;
         border-radius: 38px;
         text-align: center;
         color: #fff;
@@ -528,21 +532,17 @@ background: linear-gradient(90deg, rgba(3,110,122,1) 29%, rgba(32,217,190,1) 94%
         align-self: center;
     }
 
-    /* .row-holder {
-        width: 60vw;
-    } */
-
-    /* .row-holder,
-    .row-background {
-        height: 450px;
-    } */
+    #row-holder-1-home,
+    #row-holder-2-home,
+    #row-holder-3-home {
+        width: 340px;
+    }
 
     .row-text {
         width: 300px;
         height: 90px;
         border-radius: 40px;
         font-size: 80%;
-        margin: 10px auto -5px auto;
     }
 
     .image-text {
@@ -550,16 +550,16 @@ background: linear-gradient(90deg, rgba(3,110,122,1) 29%, rgba(32,217,190,1) 94%
     }
 
     .image-wrapper-upper {
-        margin-left: 12px;
+        margin-left: 20px;
     }
 
     .image-wrapper-lower {
-        margin-right: 12px;
+        margin-right: 20px;
     }
 
     .image-wrapper {
-        height: 142px;
-        width: 142px;
+        height: 128px;
+        width:  128px;
     }
 
 
