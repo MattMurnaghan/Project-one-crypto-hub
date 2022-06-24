@@ -328,12 +328,17 @@ i {
 }
 
 .row-center p, li {
-    padding: 5px;
+    padding: 5px 0px;
+    text-align: justify;
+}
+
+.row-center ul i {
+    margin-top: 10px;
+    color: black;
 }
 
 hr {
-    width: 90%;
-    padding-bottom: 10px;
+    width: 215px;
     border-bottom: solid 3px #fff;
 }
 
