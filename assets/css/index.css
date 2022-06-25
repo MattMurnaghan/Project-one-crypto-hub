@@ -22,7 +22,7 @@ header {
     width: 100%;
     z-index: 2;
 }
-:is(h1, h2, h3) {
+:is(h1, h2, h3, a) {
     font-family: Roboto, Cabin, sans-serif;
 }
 
@@ -277,7 +277,7 @@ header a {
     /* background: linear-gradient(90deg, rgba(3,110,122,1) 29%, rgba(32,217,190,1) 94%); */
     border-radius: 60px;
     /* margin: 15px auto 15px auto; */
-    font-size: 120%;
+    font-size: 150%;
     color: inherit;
     display: flex;
     align-items: center;
@@ -308,7 +308,7 @@ i {
     /* height: 175px; */
     background-color: #036e7a;
     border-radius: 60px;
-    font-size: 120%;
+    font-size: 150%;
     color: inherit;
 
     display: flex;
