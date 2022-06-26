@@ -318,7 +318,7 @@ i {
     justify-content: flex-start;
 
     padding: 15px;
-    border: 4px solid #fff;
+    border: 5px solid #fff;
 }
 
 .row-center ul {
@@ -355,10 +355,10 @@ hr {
 }
 
 .image-wrapper {
-    height: 213px;
-    width: 213px;
-    border-radius: 26%;
-    border: 4px solid #fff;
+    height: 285px;
+    width: 285px;
+    border-radius: 25%;
+    border: 5px solid #fff;
     display: grid;
     place-items: center;
     grid-template-areas: "main";
@@ -442,12 +442,12 @@ hr {
 
     .image-wrapper-upper {
         float: left;
-        margin: 7.5px 0 7.5px 55px;
+        margin: 7.5px 0 7.5px 0px;
     }
 
     .image-wrapper-lower {
         float: right;
-        margin: 7.5px 55px 0 7.5px;
+        margin: 7.5px 0px 0 7.5px;
     }
 
     .image-wrapper-upper,
@@ -558,21 +558,11 @@ hr {
 
     .image-text {
 
-        font-size: 0.6rem;
-    }
-
-    .image-wrapper-upper {
-        margin-left: 20px;
-    }
-
-    .image-wrapper-lower {
-        margin-right: 20px;
+        font-size: 0.9rem;
     }
 
     .image-wrapper {
-        height: 128px;
-        width:  128px;
+        height: 155px;
+        width:  155px;
     }
-
-
 }
