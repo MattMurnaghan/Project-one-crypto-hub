@@ -279,6 +279,7 @@ header a {
     background: rgb(3, 110, 122);
     border-radius: 45px;
     font-size: 150%;
+    line-height: 32px;
     color: inherit;
     display: flex;
     align-items: center;
