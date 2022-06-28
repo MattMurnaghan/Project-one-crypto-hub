@@ -85,11 +85,11 @@ header {
 }
 
 header a {
-    border-bottom: 2px solid transparent;
+    border-bottom: 3px solid transparent;
 }
 
 #menu a:hover {
-    border-bottom: 2px solid #fff;
+    border-bottom: 3px solid #fff;
 }
 
 .hamburger {
@@ -309,6 +309,7 @@ i {
     border-radius: 45px;
     font-size: 140%;
     color: inherit;
+    line-height: 32px;
 
     display: flex;
     flex-direction: column;
@@ -364,13 +365,20 @@ hr {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    transition: transform 400ms;
+}
+
+.next-page__container:hover {
+    transform: scale(1.1);
 }
 
 .next-page__link {
     margin: 0 auto;
     height: 90px;
-    width: 100px;
-    justify-content: center;
+    /* width: 100px; */
+    width: 140px;
+    /* justify-content: center; */
+    justify-content: flex-end;
     align-items: center;
     display: flex;
 }
@@ -397,10 +405,11 @@ hr {
     height: 90px;
     width: 55px;
     justify-content: center;
-    align-items: flex-start;
+    /* align-items: flex-start; */
+    align-items: center;
     display: flex;
     flex-direction: column;
-    animation-name: sideways-arrow;
+    /* animation-name: sideways-arrow; */
 }
 
 .down-wards-arrow__span {
@@ -445,7 +454,7 @@ span:nth-of-type(2) {
     }
 }
 
-@keyframes sideways-arrow {
+/* @keyframes sideways-arrow {
     0% {
         margin-left: 0;
     }
@@ -457,7 +466,7 @@ span:nth-of-type(2) {
     100% {
         margin-left: 0;
     }
-}
+} */
 
 .video-carousel {
     margin: 0px auto 15px auto;
@@ -554,7 +563,7 @@ span:nth-of-type(2) {
 
 .video-option:is(:hover, :focus, :active) {
     background: #eee;
-    top: -10px;
+    top: -5px;
 }
 
 /* image wrappers */
