@@ -921,6 +921,11 @@ span:nth-of-type(2) {
     .image-wrapper-upper .image-text {
         margin: 0px 0px 0 0;
     }
+
+    .row-holder-left {
+        margin: 0 auto;
+        float: none;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -969,12 +974,13 @@ span:nth-of-type(2) {
     }
 
     .row-holder-left {
-        width: 75%;
-        margin: 10px 8%;
+        width: 90%;
+        margin: 0 auto;
+        float: none;
     }
 
     .row-left {
-        width: 100%;
+        width: 80%;
         clear: both;
     }
 
