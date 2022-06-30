@@ -522,6 +522,7 @@ input:-webkit-autofill:active{
 .dropdown-bar h4 {
     position: absolute;
     top: 38px;
+    width: 50%;
 }
 
 .toggle-dropdown:checked~#privacy-statement{
