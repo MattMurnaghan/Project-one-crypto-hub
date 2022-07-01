@@ -180,8 +180,9 @@ header a {
     height: 40px;
     padding: 40px;
     background-color: rgba(3, 110, 122 , 0.5);
-    top: 70px;
-    right: 27vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     position: absolute;
 }
 
