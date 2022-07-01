@@ -171,6 +171,20 @@ header a {
     height: 55vh;
 }
 
+#cover-text {
+    font-size: 130%;
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 400px;
+    height: 40px;
+    padding: 40px;
+    background-color: rgba(3, 110, 122 , 0.5);
+    top: 70px;
+    right: 27vw;
+    position: absolute;
+}
+
 #hero-image {
     background: url(../images/man-holding-bitcoin.jpg) no-repeat center center;
     width: 100%;
