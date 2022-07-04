@@ -338,7 +338,7 @@ i {
 }
 
 .row-center h3 {
-    font-size: 130%;
+    font-size: 120%;
 }
 
 .row-center ul {
@@ -1005,7 +1005,7 @@ span:nth-of-type(2) {
         font-size: 100%;
     }
 
-    #row-5-text {
+    #row-5-text-homepage {
         height: 150px;
     }
 
