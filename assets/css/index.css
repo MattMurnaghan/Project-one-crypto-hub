@@ -18,7 +18,8 @@ h2,
 h3,
 h4,
 a,
-label {
+label,
+dt {
     font-family: 'Roboto Slab', serif;
 }
 
@@ -347,8 +348,8 @@ i {
     margin-bottom: 10px;
 }
 
-.row-center p,
-li {
+.row-center  p,
+.row-center  li {
     padding: 10px 0px;
 }
 
@@ -554,13 +555,29 @@ li {
 }
 
 .dropdown-body p {
-    margin: 90px 80px 20px 20px;
+    margin: 90px 20px 20px 20px;
     text-align: justify;
+}
+
+.dropdown-body p, .definition p  {
+    margin: 65px 20px 20px 20px;
+}
+
+.dropdown-body > dl {
+    margin: 65px 20px 20px 20px;
+}
+
+.dropdown-body dt {
+    font-weight: 600;
+}
+
+.dropdown-body dd {
+    padding: 10px 0;
 }
 
 .dropdown-bar h4 {
     position: absolute;
-    top: 38px;
+    top: 30px;
 }
 
 .toggle-dropdown:checked~.dropdown-body {
@@ -1025,7 +1042,7 @@ span:nth-of-type(2) {
 
     .dropdown-bar h4 {
         width: 170px;
-        font-size: 90%;
+        font-size: 100%;
     }
 
     .image-text {
