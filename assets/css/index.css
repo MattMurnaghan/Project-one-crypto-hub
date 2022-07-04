@@ -1046,7 +1046,11 @@ span:nth-of-type(2) {
         clear: both;
     }
 
-    .dropdown-bar h4,
+    .dropdown-bar h4 {
+        width: 170px;
+        font-size: 90%;
+    }
+
     .dropdown-bar__definition h4 {
         width: 170px;
         font-size: 100%;
