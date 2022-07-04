@@ -495,7 +495,8 @@ i {
     min-height: 100px;
 }
 
-.dropdown-bar {
+.dropdown-bar,
+.dropdown-bar__definition {
     min-height: 80px;
     width: 90vw;
     background-color: #036e7a;
@@ -578,6 +579,11 @@ i {
 .dropdown-bar h4 {
     position: absolute;
     top: 30px;
+}
+
+.dropdown-bar__definition h4 {
+    position: absolute;
+    top: 38px;
 }
 
 .toggle-dropdown:checked~.dropdown-body {
@@ -1040,7 +1046,8 @@ span:nth-of-type(2) {
         clear: both;
     }
 
-    .dropdown-bar h4 {
+    .dropdown-bar h4,
+    .dropdown-bar__definition h4 {
         width: 170px;
         font-size: 100%;
     }
