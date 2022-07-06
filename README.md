@@ -54,23 +54,44 @@ The typical first time user on this site is someone with little to no experience
 * There is a series of video links covering exactly what a whitepaper is as well as each mentioned cryptocurrency at the bottom of the page.
 * At this point, a visitor should have a fair grasp on what a blockchain is, how it is fundamental to cryptocurrency, what sort of currencies they can invest in and how to research any new crypto projects that they might be interested in.
 
-### Popular exchanges - The best places to trade
+### Exchanges - The best places to trade
 * This page lists some of the most popular exchanges where you can invest and some key details particular to each exchange. 
 * It features a pros and cons list for the chosen exchanges and brief overview of each.
 * There are a series of video links covering each exchange and how an exchange works at the bottom of the page.
 * Now, a visitor should be informed of how a crytpo exchange works and will have directions to four different popular crypto exchange sites where they can begin trading.
  ### Glossary - Terminology explained
-This page goes through some of the more complicated terms when it comes to investing in crypto. It's purpose is to make it easier for a novice investor to make informed decisions about their investments.
+* This page goes through some of the more complicated terms when it comes to investing in crypto. 
+* It's purpose is to make it easier for a novice investor to make informed decisions about their investments.
+* When a visitor arrives at this point, they have learned most of what the site has to offer and will be directed to the contacts page.
+* Return users will visit this section most frequently when brushing up on terminology that they do not understand.
 
 ### Contact us - Meet like minded individuals
-This page gives site visitors the opportunity to sign up to a mailing list and connect with other like minded individuals. It also gives a link to a discord channel where people who subscribe can talk investments and ask questions.
+This page gives site visitors the opportunity to sign up to a mailing list and connect with other like minded individuals. It also gives a link to a discord channel where people who sign up can talk about investments and ask questions with their peers.
 
+## Scope
+In order to achieve the desired user & business goals, the following features will be included in this release:
+* Header and responsive menu bar, for easy site neavigation on both mobile and desktop views
+* Information sections with similar core layout
+* Information on some of the top cryptocurrencies and their backgrounds
+* Information on the most popular exchanges, pros anc cons lists of their platforms and links to their respective sites
+* A glossary section with dropdown menus so as not to overwhelm the user with information
+* Video links section explaining the topics covered on each page
+* A signup form to subscribe to a mailing list
+* A link to a discord server where visitors can connect with like minded individuals and other site users, looking to discuss crypto related topics and share their journies
 
-### Assumed content requirement:
-There are a few key elements for the requirements of a typical user:
+## Structure
+I chose a multiple page structure for the site as I felt it was easier to deliver the infomration in this way. 
+The infomation architechture was designed as such:
 
-*Information is clear and concise 
+Home Page > Guides > Currencies > Exchanges > Glossary > Contact Us
 
+Structuring th infomation in this way allows a site user to learn about cryptocurrency in an intuitive manner and in a way that should feel natural to them:
+1. First a user is introduced to the site and shown some of the benefits of cryptocurrency and that it has a use case in real world applications.
+2. Then a user is introduced to the technology behind cryptocurrency, how they can purchase it and what to do with it once they have some.
+3. After this, a user learns which currencies are popular and how to researcg new projects that interest them.
+4. The next section informs a user of what a crypto exchange is as well as the differnet exchanges that are currently protected under financial regulations and provides links to each one.
+5. At this stage a user is given a summary page with more complicated terminology to help clear up any confusion on certain finacial and technological terms that the user may be unclear on.
+6. Finally, a user is prompted to sign up to a mailing list where they can be presented with regular information about the crypto space. They can also join a discord server where they can chat with like minded peers and other site visitors to learn more about crypto and share their investment journys.
 ## Bug Fixes and Issues
 There were multiple bugs encountered during the development of this project. These were listed along with the methods employed as solutions to each.
 
