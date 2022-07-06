@@ -9,14 +9,14 @@ This site consists of 6 sections/pages:
 1. Home
 2. Guide
 3. Currencies
-4. Glossary
-5. Exchanges
+4. Exchanges
+5. Glossary
 6. Contact Us
 ## Business goals
 The business goal for this site is to:
 1. The site provides a beginners guide to crypto for those who have not much if anything about cryptocurrency.  
 2. Generate an interest in cryptocurrency and a desire to further get involved through trading and exploring other services available in the crypto space
-3. Generate revenue through collection of user data and a large mailing list to sell to advertisers and other finance affiliated products. 
+
 ## User Goals
 The site is primarily focused on first time users as it offers updated content by way of a newsletter and discord server. However, there are some recurring user benefits outlined below:
 ### First time visitors:
@@ -44,17 +44,23 @@ The typical first time user on this site is someone with little to no experience
 * The imagery and text should highlight the colaborative aspect of cryptocurrency and the individuals and groups (countries and companies) that are starting to embrace cryptocurrency as a new legal tender and means of trade.
 
 ### Guides - How does it work?
-* This page defines the different ways to buy crypto, how to store it and a few video links to some helpful explanatory videos.
+* This page defines what a blockchain is, the different ways to buy crypto, how to store it and a few video links to some helpful explanatory videos.
 * A visitor should have a basic grasp of what cryptocurrency is now and will be looking to learn about how they can get involved and what to do once they have purchased their own crypto.
 
 ### Currencies - Popular currency review 
-* This page goes through some of the most popular currencies and the fundamental differences between them
-
- ### Glossary - Terminology explained
-This page goes through some of the more complicated terms when it comes to investing in crypto. It's purpose is to make it easier for a novice investor to make informed decisions about their investments.
+* This page goes through some of the most popular currencies and the fundamental differences between them. 
+* The first section defines what a whitepaper is to the user and why it is important when it comes to researching different cryptocurrencies to invest in.
+* Each section gives an overview of the currency, an exlanation of its technology, its place in the market as well as a link to its whitepaper.
+* There is a series of video links covering exactly what a whitepaper is as well as each mentioned cryptocurrency at the bottom of the page.
+* At this point, a visitor should have a fair grasp on what a blockchain is, how it is fundamental to cryptocurrency, what sort of currencies they can invest in and how to research any new crypto projects that they might be interested in.
 
 ### Popular exchanges - The best places to trade
-This page lists some of the most popular exchanges where you can invest and some key details particular to each exchange.
+* This page lists some of the most popular exchanges where you can invest and some key details particular to each exchange. 
+* It features a pros and cons list for the chosen exchanges and brief overview of each.
+* There are a series of video links covering each exchange and how an exchange works at the bottom of the page.
+* Now, a visitor should be informed of how a crytpo exchange works and will have directions to four different popular crypto exchange sites where they can begin trading.
+ ### Glossary - Terminology explained
+This page goes through some of the more complicated terms when it comes to investing in crypto. It's purpose is to make it easier for a novice investor to make informed decisions about their investments.
 
 ### Contact us - Meet like minded individuals
 This page gives site visitors the opportunity to sign up to a mailing list and connect with other like minded individuals. It also gives a link to a discord channel where people who subscribe can talk investments and ask questions.
