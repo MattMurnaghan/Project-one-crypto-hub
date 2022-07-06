@@ -504,19 +504,27 @@ i {
 
 .discord-icon-container {
     height: 200px;
-    width: 200px;
-    border-radius: 50%;
+    width: 360px;
+    border-radius: 50px;
     border: 10px solid #fff;
     background-color: #036e7a;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 25px 0 40px 0;
+    /* text-align: center; */
+    line-height: 200px;
+}
+
+.discord-icon-container a {
+    color: #fff;
+    font-size: 120%;
 }
 
 .discord-icon-container i {
     color: #fff;
-    font-size: 700%;
+    font-size: 500%;
+    margin-left: 20px;
 }
 
 .discord-icon-container {
