@@ -91,7 +91,10 @@ Structuring th infomation in this way allows a site user to learn about cryptocu
 3. After this, a user learns which currencies are popular and how to researcg new projects that interest them.
 4. The next section informs a user of what a crypto exchange is as well as the differnet exchanges that are currently protected under financial regulations and provides links to each one.
 5. At this stage a user is given a summary page with more complicated terminology to help clear up any confusion on certain finacial and technological terms that the user may be unclear on.
-6. Finally, a user is prompted to sign up to a mailing list where they can be presented with regular information about the crypto space. They can also join a discord server where they can chat with like minded peers and other site visitors to learn more about crypto and share their investment journys.
+6. Finally, a user is prompted to sign up to a mailing list where they can be presented with regular information about the crypto space. They can also join a discord server where they can chat with like minded peers and other site visitors to learn more about crypto and share their investment journeys.
+
+## Technology and Tools
+I employed a 
 ## Bug Fixes and Issues
 There were multiple bugs encountered during the development of this project. These were listed along with the methods employed as solutions to each.
 

@@ -772,7 +772,9 @@ span:nth-of-type(2) {
     scroll-snap-type: x mandatory;
 
     scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
+    scrollbar-color: linear-gradient(90deg, rgba(3, 110, 122, 1) 29%, rgba(32, 217, 190, 1) 94%);
+
+    /* -webkit-overflow-scrolling: touch; */
 }
 
 .video-list::-webkit-scrollbar {
@@ -780,11 +782,14 @@ span:nth-of-type(2) {
     height: 15px;
 }
 
+
+
 .video-list::-webkit-scrollbar-thumb {
     background: linear-gradient(90deg, rgba(3, 110, 122, 1) 29%, rgba(32, 217, 190, 1) 94%);
     border: 3px solid #fff;
     border-radius: 15px;
 }
+
 
 .video-list::-webkit-scrollbar-track {
     background: transparent;
