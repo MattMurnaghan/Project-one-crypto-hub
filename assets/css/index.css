@@ -940,6 +940,7 @@ span:nth-of-type(2) {
 :is(.pros, .cons) li {
     text-align: start;
     padding: 5px 0;
+    font-size: 120%;
 } 
 
 .pros-and-cons-container hr {
