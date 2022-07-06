@@ -538,7 +538,7 @@ i {
 
 .dropdown-container {
     display: flex;
-    width: 100vw;
+    width: 100%;
     margin: 0 auto 10px auto;
     background-color: #036e7a;
     min-height: 100px;
