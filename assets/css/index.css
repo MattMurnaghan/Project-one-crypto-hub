@@ -19,7 +19,8 @@ h3,
 h4,
 a,
 label,
-dt {
+dt,
+.press-me p {
     font-family: 'Roboto Slab', serif;
 }
 
@@ -494,7 +495,6 @@ i {
 
 .press-me p {
     font-size: x-large;
-    font-family: 'Roboto-slab', serif;
     font-weight: bold;
 }
 
