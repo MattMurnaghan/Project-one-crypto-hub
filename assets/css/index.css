@@ -1098,8 +1098,8 @@ span:nth-of-type(2) {
         right: -50%;
     }
 
-    #cover-text {
-        font-size: 110%;
+    #cover-text h2{
+        font-size: 120%;
     }
 
     .section-title {
