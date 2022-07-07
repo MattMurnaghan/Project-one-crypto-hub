@@ -175,6 +175,7 @@ header {
     letter-spacing: 4px;
     width: 400px;
     height: 40px;
+    line-height: 40px;
     padding: 40px;
     background-color: rgba(3, 110, 122, 0.5);
     top: 50%;
@@ -183,7 +184,7 @@ header {
     position: absolute;
 }
 #cover-text h2 {
-    font-size: 100%;
+    font-size: 120%;
 }
 
 #hero-image {
