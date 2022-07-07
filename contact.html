@@ -45,7 +45,7 @@
                     <p>
                         Fill out our form below to sign up to our exclusive newsletter:
                     </p>
-                    <form class="form" action="https://formdump.codeinstitute.net/" method="post">
+                    <form class="form" action="https://formdump.codeinstitute.net/" method="post" target="_blank">
                         <div class="animated-input">
                             <input type="text" id="f_name" name="first_name" required class="input">
                             <label for="f_name" class="input-label">First Name</label>
@@ -58,8 +58,12 @@
                             <input type="email" id="email" name="email" required class="input">
                             <label for="email" class="input-label">Email</label>
                         </div>
+                        <div id="offers-container">
+                            <label for="offers">Would you like to hear more about cryptocurrency related products and services?</label>
+                            <input type="checkbox" id="offers" name="offers" aria-label="sign up for exclusive offers about other cryptocurrency products and services">
+                        </div>
                         <div class="animated-input">
-                            <input type="submit" name="sign-up" id="sign-up" value="Sign up!">
+                            <button type="submit"  id="sign-up">Sign Up!</button>
                         </div>
                     </form>
                 </div>

@@ -348,8 +348,8 @@ i {
     margin-bottom: 10px;
 }
 
-.row-center  p,
-.row-center  li {
+.row-center p,
+.row-center li {
     padding: 10px 0px;
 }
 
@@ -436,9 +436,20 @@ i {
     outline-color: #fff;
 }
 
+#offers {
+    height: 20px;
+    width: 20px;
+    margin: 0px 0 0px 15px;
+}
+
+#offers-container {
+    margin-bottom: 10px;
+}
+
 #sign-up {
     width: 160px;
     height: 50px;
+    margin-top: 15px;
     border-radius: 10px;
     color: #fff;
     font-weight: 600;
@@ -447,7 +458,6 @@ i {
     background-color: #036e7a;
     border: 3px solid #fff;
     cursor: pointer;
-
 }
 
 #sign-up:hover {
@@ -609,11 +619,12 @@ i {
     text-align: justify;
 }
 
-.dropdown-body p, .definition p  {
+.dropdown-body p,
+.definition p {
     margin: 65px 20px 20px 20px;
 }
 
-.dropdown-body > dl {
+.dropdown-body>dl {
     margin: 65px 20px 20px 20px;
 }
 
@@ -939,7 +950,8 @@ span:nth-of-type(2) {
     margin-left: 5px;
 }
 
-.pros, .cons {
+.pros,
+.cons {
     margin-top: 20px;
     margin-bottom: 20px;
     width: 265px;
@@ -954,7 +966,7 @@ span:nth-of-type(2) {
     text-align: start;
     padding: 5px 0;
     font-size: 120%;
-} 
+}
 
 .pros-and-cons-container hr {
     border-bottom: 2px solid #fff;
@@ -1174,5 +1186,7 @@ span:nth-of-type(2) {
         height: 189px;
     }
 
-
+    #sign-up {
+        margin-left: 70px;
+    }
 }
