@@ -169,7 +169,7 @@ header {
 }
 
 #cover-text {
-    font-size: 130%;
+    font-size: 120%;
     font-family: Lato, sans-serif;
     text-transform: uppercase;
     text-align: center;
@@ -335,7 +335,7 @@ i {
 }
 
 .row-center h3 {
-    font-size: 120%;
+    font-size: 110%;
 }
 
 .row-center ul {
@@ -753,20 +753,6 @@ span:nth-of-type(2) {
     }
 }
 
-/* @keyframes sideways-arrow {
-    0% {
-        margin-left: 0;
-    }
-
-    50% {
-        margin-left: 35px;
-    }
-
-    100% {
-        margin-left: 0;
-    }
-} */
-
 .video-carousel {
     margin: 0px auto 15px auto;
     width: 560px;
@@ -776,14 +762,10 @@ span:nth-of-type(2) {
 
 .video-list {
     display: flex;
-
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-
     scroll-behavior: smooth;
     scrollbar-color: linear-gradient(90deg, rgba(3, 110, 122, 1) 29%, rgba(32, 217, 190, 1) 94%);
-
-    /* -webkit-overflow-scrolling: touch; */
 }
 
 .video-list::-webkit-scrollbar {
@@ -791,14 +773,11 @@ span:nth-of-type(2) {
     height: 15px;
 }
 
-
-
 .video-list::-webkit-scrollbar-thumb {
     background: linear-gradient(90deg, rgba(3, 110, 122, 1) 29%, rgba(32, 217, 190, 1) 94%);
     border: 3px solid #fff;
     border-radius: 15px;
 }
-
 
 .video-list::-webkit-scrollbar-track {
     background: transparent;
@@ -1096,10 +1075,6 @@ span:nth-of-type(2) {
     #menu {
         width: 50%;
         right: -50%;
-    }
-
-    #cover-text h2{
-        font-size: 120%;
     }
 
     .section-title {
