@@ -1,10 +1,11 @@
-# Crypto Hub
+# **Crypto Hub**
 
 Welcome to **crypto hub!** 
 
 A place where people who are not very familiar with cryptocurrency can learn more about the terminology and some of the top coins that dominate the market.
 
 ## Site sections:
+---
 This site consists of 6 sections/pages:
 1. Home
 2. Guide
@@ -13,11 +14,13 @@ This site consists of 6 sections/pages:
 5. Glossary
 6. Contact Us
 ## Business goals
+---
 The business goal for this site is to:
 1. The site provides a beginners guide to crypto for those who have not much if anything about cryptocurrency.  
 2. Generate an interest in cryptocurrency and a desire to further get involved through trading and exploring other services available in the crypto space
 
 ## User Goals
+---
 The site is primarily focused on first time users as it offers updated content by way of a newsletter and discord server. However, there are some recurring user benefits outlined below:
 ### First time visitors:
 1. I want to easily find useful information regarding cryptocurrency, what it is and how it affects me.
@@ -29,11 +32,72 @@ The site is primarily focused on first time users as it offers updated content b
 2. I want to review any updated content to stay up to date with market trends.
 3. I want to easily find affiliate links to different social media platforms related to the presented material.
 
-## UX Strategy
+## **UX**
+### Strategy
 ---
-Crypto Hub aims to bring users on a journey, in line with core UX principles: 
+Crypto Hub aims to educate site visitors about cryptocurrency. The site covers the basic technology that allows cryptocurrencies to exist, the different currencies available to invest in, how to purchase and store their crypto and how to research blockchain projects that they are interested in.
+To keep in line with core UX principles, I considered the factors listed below:  
 ### Target Audience
+---
 The site is aimed at users of all ages, as cryptocurrency is still a mysterious topic for many. However, there is a slight leaning towards users aged 18-30, as these users are typically further willing to invest in newer opportunites, rather than more established stock holdings and investment opportunites.
+### Scope
+---
+In order to achieve the desired user & business goals, the following features will be included in this release:
+* Header and responsive menu bar, for easy site neavigation on both mobile and desktop views
+* Information sections with similar core layout
+* Information on some of the top cryptocurrencies and their backgrounds
+* Information on the most popular exchanges, pros anc cons lists of their platforms and links to their respective sites
+* A glossary section with dropdown menus so as not to overwhelm the user with information
+* Video links section explaining the topics covered on each page
+* A signup form to subscribe to a mailing list
+* A link to a discord server where visitors can connect with like minded individuals and other site users, looking to discuss crypto related topics and share their journies
+
+### Structure
+---
+I chose a multiple page structure for the site as I felt it was easier to deliver the infomration in this way. 
+The infomation architechture was designed as such:
+
+Home Page > Guides > Currencies > Exchanges > Glossary > Contact Us
+
+Structuring th infomation in this way allows a site user to learn about cryptocurrency in an intuitive manner and in a way that should feel natural to them:
+1. First a user is introduced to the site and shown some of the benefits of cryptocurrency and that it has a use case in real world applications.
+2. Then a user is introduced to the technology behind cryptocurrency, how they can purchase it and what to do with it once they have some.
+3. After this, a user learns which currencies are popular and how to researcg new projects that interest them.
+4. The next section informs a user of what a crypto exchange is as well as the differnet exchanges that are currently protected under financial regulations and provides links to each one.
+5. At this stage a user is given a summary page with more complicated terminology to help clear up any confusion on certain finacial and technological terms that the user may be unclear on.
+6. Finally, a user is prompted to sign up to a mailing list where they can be presented with regular information about the crypto space. They can also join a discord server where they can chat with like minded peers and other site visitors to learn more about crypto and share their investment journeys.
+
+### Skeleton
+---
+[Wireframes](docs/wireframes/crypto-hub-wireframes.pdf)
+
+Linked above are the wireframes for the site. They show examples of both a desktop and mobile view of the site.
+The design has changed slightly in terms of colour scheme and layout but has remained mostly the same.
+
+* I added some hover effects to the images on the home page, revealing some interesting facts about crypto when a user mouses over them.
+
+* To implement this same feature on mobile, I made the text boxes permanent and slightly opaque, as there would be no cursor to trigger the effect.
+
+* I added some hover effects to the navbar to give a better sense of feedback to the user. 
+
+* I added a burger menu navbar for mobile users, on the right hand side, as I felt this was the best way for a user to navigate the site one handed.
+
+* I also added some animated arrows directing users to the video sections, as well as on the contact us page.
+
+* Originally, the discord link had no text, was circular and contained the discord icon only. However, real user testing showeed that not many people realised that this was a clickable link. 
+
+* In response to this, I added the animated arrow as well as a press me indication, along with some text directing the user to join the websites discord server. I felt that it gave better direction to the users to click the link and increase engagement.
+
+### Surface
+---
+I chose a colour pallete around blues and greens as they have a strong connection to the business world and finance in general (IBM, Facebook, Coinbase etc.).
+These colours evoke a psychological response, triggering feelings of calm, securirty and tranquilty, all the perfect feelings to evoke in a user who isn new to the crypto-space and quite possibly already skeptical of the subject.
+
+I used a gradient background to distinguish individual sections and create some depth on the page. I used a dark blue/green colour with white text for reading sections to provide appropriate contrast. 
+
+I used two different fonts for the site, 'Roboto Slab' for any heading sections and 'Lato' for the body text. See example below:
+![font-pairing](docs/images/surface/font-pair-example.jpg)
+
 
 ### User Journey
 The typical first time user on this site is someone with little to no experience in the cryptospace. As such, the journey should take a user from a novice position, to one who feels they understand the crypto-space enough to begin to invest and explore other associated products.
@@ -67,31 +131,6 @@ The typical first time user on this site is someone with little to no experience
 
 ### Contact us - Meet like minded individuals
 This page gives site visitors the opportunity to sign up to a mailing list and connect with other like minded individuals. It also gives a link to a discord channel where people who sign up can talk about investments and ask questions with their peers.
-
-## Scope
-In order to achieve the desired user & business goals, the following features will be included in this release:
-* Header and responsive menu bar, for easy site neavigation on both mobile and desktop views
-* Information sections with similar core layout
-* Information on some of the top cryptocurrencies and their backgrounds
-* Information on the most popular exchanges, pros anc cons lists of their platforms and links to their respective sites
-* A glossary section with dropdown menus so as not to overwhelm the user with information
-* Video links section explaining the topics covered on each page
-* A signup form to subscribe to a mailing list
-* A link to a discord server where visitors can connect with like minded individuals and other site users, looking to discuss crypto related topics and share their journies
-
-## Structure
-I chose a multiple page structure for the site as I felt it was easier to deliver the infomration in this way. 
-The infomation architechture was designed as such:
-
-Home Page > Guides > Currencies > Exchanges > Glossary > Contact Us
-
-Structuring th infomation in this way allows a site user to learn about cryptocurrency in an intuitive manner and in a way that should feel natural to them:
-1. First a user is introduced to the site and shown some of the benefits of cryptocurrency and that it has a use case in real world applications.
-2. Then a user is introduced to the technology behind cryptocurrency, how they can purchase it and what to do with it once they have some.
-3. After this, a user learns which currencies are popular and how to researcg new projects that interest them.
-4. The next section informs a user of what a crypto exchange is as well as the differnet exchanges that are currently protected under financial regulations and provides links to each one.
-5. At this stage a user is given a summary page with more complicated terminology to help clear up any confusion on certain finacial and technological terms that the user may be unclear on.
-6. Finally, a user is prompted to sign up to a mailing list where they can be presented with regular information about the crypto space. They can also join a discord server where they can chat with like minded peers and other site visitors to learn more about crypto and share their investment journeys.
 
 ## Technology and Tools
 I employed a 
