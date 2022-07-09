@@ -37,6 +37,8 @@ The site is primarily focused on first-time users as it offers updated content b
 
 ## **User Journey**
 
+The typical first-time user on this site is someone with little to no experience in the crypto space. As such, the journey should take a user from a novice position to one who feels they understand the crypto-space enough to begin to invest and explore other associated products.
+
 ### Welcome page - A gentle introduction
 ---
 * This page welcomes the user to the site and defines what a cryptocurrency is, how it affects the economy and what its purpose is in the global economy. 
@@ -314,8 +316,6 @@ I employed several different design tools and different technologies to help cre
 
 ## **Testing**
 
-The typical first-time user on this site is someone with little to no experience in the crypto space. As such, the journey should take a user from a novice position to one who feels they understand the crypto-space enough to begin to invest and explore other associated products.
-
 ### User stories
 ---
 
@@ -468,6 +468,7 @@ In the end, I came out with some pretty solid scores across the board, scoring a
 
 
 ## **HTML & CSS Validation**
+
 
 
 ## **Bug Fixes and Issues**

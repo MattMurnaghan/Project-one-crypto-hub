@@ -768,7 +768,6 @@ span:nth-of-type(2) {
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    scrollbar-color: linear-gradient(90deg, rgba(3, 110, 122, 1) 29%, rgba(32, 217, 190, 1) 94%);
 }
 
 .video-list::-webkit-scrollbar {
