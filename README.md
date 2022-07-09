@@ -444,7 +444,30 @@ Anyone revisiting the site seeking any affiliate links for social media platform
 
 ## **Lighthouse Scores**
 
+Using the lighthouse section of Chrome Developer tools, I ran tests on the different pages of my site to check their performance on both mobile and desktop platforms.
 
+Initially, some performance scores were lower than desired, sitting around the 80/100 region. I took the following steps to remedy this and improve my scores:
+
+1. Compress my images to a suitable size for display as they were all very large, to begin with, and were causing a significant delay in page load.
+2. Serve the images in a better format, more suited to website display using the webp format, as suggested by Chrome's developer tools.
+3. Establish pre-connects to the page's external resources, like google fonts and fontawesome early on in the flow as these are none blocking processes and the fontawesome icons were not needed until the bottom portion of the page loaded in.
+4. I changed from an import statement for the required font families in the CSS file to a static link at the top of each page in the header section as this shortened the length of the longest chain of requests on the page (3 links).
+5. I used lazy loading on the video elements to prevent them from extending the initial load time of the page until the user required them after scrolling to the bottom of each section. 
+
+Initially, I had not added aria labels to the different dropdown elements for the glossary section, mobile burger menu and privacy statement. After adding these the accessibility scores were improved.
+
+|![home-page-lighthouse-score](docs/images/performance/desktop-performance/home-desktop.jpg) |
+|:--:|
+| <strong>Lighthouse scores for the homepage - desktop view</strong>  |
+
+In the end, I came out with some pretty solid scores across the board, scoring above 90 on all site pages for both desktop and mobile tests. See the link below for the score screenshots for each page and view.
+
+[Desktop performance](docs/images/performance/desktop-performance/)
+
+[Mobile performance](docs/images/performance/mobile-performance/)
+
+
+## **HTML & CSS Validation**
 
 
 ## **Bug Fixes and Issues**
