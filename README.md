@@ -1,6 +1,8 @@
 # **Crypto Hub**
 
-Welcome to **crypto hub!** 
+Welcome to **[crypto hub!](https://mattmurnaghan.github.io/Project-one-crypto-hub/index.html)** 
+
+![responsive-demo](docs/images/responsive/responsiveness-demo.png)
 
 A place where people who are not very familiar with cryptocurrency can learn more about the terminology and some of the top coins that dominate the market.
 
@@ -99,19 +101,111 @@ I used two different fonts for the site, 'Roboto Slab' for any heading sections 
 ![font-pairing](docs/images/surface/font-pair-example.jpg)
 
 
-### User Journey
+## **Features**
+---
+This website is fully repsonsive and was designed for desktop first and adapted to fit a mobile view. Sections are broken up by different coloured backgrounds following the same information presentation style, so as to create a sense of familiarity for the user. There are three different layouts on the site, A, B, C and D.
+* Layout A is used for the homepage.
+* Layout B is used for the guides, currencies and exchanges pages.
+* Layout C is used for the glossary page.
+* Layout D is used for the contact us page.
+
+## Layout A
+### Hero Image 
+---
+The hero image for the site has a slight zoom effect when loading into the homepage. The image I chose shows someones hand holding a physical bitcoin, which serves as a metaphor for the user being able to get a grasp of what cryptocurrency is about as well as taking their financial situation into their own hands.
+
+
+When serving this image to mobile users, I used a .webp image format as the original .jpg was causing too much delay to the page load.  
+
+### Navbar
+---
+The navbar is a sticky element, placed at the top of the page and stays present when scrolling thoughout site navigation. It provides the user with an easy way to navigate back and forth between site pages. 
+* The page that te user is currently viewing is marked with an active style and is underlined to keep the user informed of their current position on the site. 
+* There is a hover effect added to the rest of the elements with the same underline as the active tag to provide feedback to the user.
+
+|![navbar-desktop](docs/images/features/navbar.jpg)|
+|:--:|
+| <strong>Navbar - Desktop View</strong>  |
+
+I replaced the navbar for a burger menu opening from the side of the screen for mobile users as I felt this was a more approriate method of site navigation for that type of device. 
+
+|![navbar-mobile](docs/images/features/navbar-mobile.jpg)|
+|:--:|
+| <strong>Navbar - Mobile View</strong>  |
+
+The element uses a checkbox with opacity 0 behind a burger menu icon to toggle a media query, hiding the element at the side of the page.
+
+|![navbar-mobile-expanded](docs/images/features/navbar-mobile-expanded.jpg)|
+|:--:|
+| <strong>Navbar - Mobile view expanded</strong>  |
+
+### Section row
+---  
+The information section of the home screen presents the user with some different welcome messages to the site. Each section is headed by an H2 element on a coloured background, offset agains the white background of the site. 
+|![home-screen-section-row](docs/images/features/home-screen-images-section.jpg)|
+|:--:|
+| <strong>Section Row - welcome messages</strong>  |
+
+Alongside the welcome messages are some images. Each image has a hover effect that presents some extra information about crypto to the user when placing the cursor on the image. This effect was implemented by setting a p tag to occupy the same space as the image using grid layout. The zoom and reveal was implemented using a hover transition effect. 
+
+|![home-screen-image-hover-effect](docs/images/features/home-screen-images-section-hover-effect.jpg)|
+|:--:|
+| <strong>Section Row - Image hover effect</strong>  |
+
+For mobile, I removed the hover effect for the overlay text on the images and added them as permanent boxes with translucent colour backgrounds, due to the lack of cursor to trigger the effect.
+
+I also shifted the rows and images to sit on top of each other instead of side by side, as this was a better fit for longer mobile screens, vs wider desktop ones.
+
+|![home-screen-mobile-view](docs/images/features/home-screen-images-section-mobile.jpg)|
+|:--:|
+| <strong>Section Row - Mobile view</strong>  |
+
+### Next Page 
+---
+A next page link inside of a div element was implemented at the bottom of each page, barring the contact page, to give the user a quick and easy way to progress through the site. There is a hover effect placed on the button to scale up its size when a user places their cursor on it.
+
+|![next-page-element](docs/images/features/next-page.jpg)|
+|:--:|
+| <strong>Next page element</strong>  |
+
+## Layout B
+### Guides - Section row
+---
+The information presentation style for layout B is shared for the mostpart by the guides, currencies and exchanges pages. It consists of a coloured row background to break up sections, holding a dark coloured div element, centered in the page and offset with white text for appropriate contrast. 
+
+Each subheader is underlined with an hr tag and uses the same Roboto Slab font shared with the rest of the heading elements throughout the site. 
+
+|![layout-b-section-row](docs/images/features/guides-section-row.jpg)|
+|:--:|
+| <strong>Layout B - Centered row element</strong>  |
+
+At the bottom of each page for layout B, there is a video links section, using a responsive iframe to show video links on the different topics covered by each section of the page.
+
+|![layout-b-section-row](docs/images/features/layout-b-video-links.jpg)|
+|:--:|
+| <strong>Layout B - Video links</strong>  |
+
+There are some a tag elements below each video as well as a scrollbar with scroll snap properties to allow easy selection of each video. There is a hover effect applied to each selector, changing the colour to an off-white background and raising the element 
+
+---
 The typical first time user on this site is someone with little to no experience in the cryptospace. As such, the journey should take a user from a novice position, to one who feels they understand the crypto-space enough to begin to invest and explore other associated products.
 
+
+
+
 ### Welcome page - A gentle introduction
+---
 * This page welcomes the user to the site,  defines what a cryptocurrency is, how it affects the economy and what its purpose is in the global economy. 
 * The goal of this page is to introduce crypto in a way that is unambiguous.
 * The imagery and text should highlight the colaborative aspect of cryptocurrency and the individuals and groups (countries and companies) that are starting to embrace cryptocurrency as a new legal tender and means of trade.
 
 ### Guides - How does it work?
+---
 * This page defines what a blockchain is, the different ways to buy crypto, how to store it and a few video links to some helpful explanatory videos.
 * A visitor should have a basic grasp of what cryptocurrency is now and will be looking to learn about how they can get involved and what to do once they have purchased their own crypto.
 
 ### Currencies - Popular currency review 
+---
 * This page goes through some of the most popular currencies and the fundamental differences between them. 
 * The first section defines what a whitepaper is to the user and why it is important when it comes to researching different cryptocurrencies to invest in.
 * Each section gives an overview of the currency, an exlanation of its technology, its place in the market as well as a link to its whitepaper.
@@ -119,32 +213,71 @@ The typical first time user on this site is someone with little to no experience
 * At this point, a visitor should have a fair grasp on what a blockchain is, how it is fundamental to cryptocurrency, what sort of currencies they can invest in and how to research any new crypto projects that they might be interested in.
 
 ### Exchanges - The best places to trade
+---
 * This page lists some of the most popular exchanges where you can invest and some key details particular to each exchange. 
 * It features a pros and cons list for the chosen exchanges and brief overview of each.
 * There are a series of video links covering each exchange and how an exchange works at the bottom of the page.
 * Now, a visitor should be informed of how a crytpo exchange works and will have directions to four different popular crypto exchange sites where they can begin trading.
  ### Glossary - Terminology explained
+ ---
 * This page goes through some of the more complicated terms when it comes to investing in crypto. 
 * It's purpose is to make it easier for a novice investor to make informed decisions about their investments.
 * When a visitor arrives at this point, they have learned most of what the site has to offer and will be directed to the contacts page.
 * Return users will visit this section most frequently when brushing up on terminology that they do not understand.
 
 ### Contact us - Meet like minded individuals
+---
 This page gives site visitors the opportunity to sign up to a mailing list and connect with other like minded individuals. It also gives a link to a discord channel where people who sign up can talk about investments and ask questions with their peers.
 
-## Technology and Tools
-I employed a 
-## Bug Fixes and Issues
+## **Technology and Tools**
+I employed a number of different design tools and different technologies to help create and test ths website:
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+    - Used as the basic building block for the project and to structure the content.
+- [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+    - Used to style all the web content across the project and created animated & interactive elements.
+- [Google Fonts](https://fonts.google.com/)
+    - Used to obtain the fonts linked in the header, fonts used were Lato and Roboto Slab.
+- [Font Awesome](https://fontawesome.com/)
+    - Used to obtain the social media icons used in the footer discord sign up link.
+- [Google Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+    - Used as a primary method of fixing spacing issues, finding bugs, and testing responsiveness across the project.
+- [GitHub](https://github.com/)
+    - Used for code and documentation storage and website deployment through github pages.
+- [Git](https://git-scm.com/)
+    - Used for version control through the Gitpod terminal.
+- [Gitpod](https://www.gitpod.io/)
+    - Used as the development environment.
+- [Balsamiq](https://balsamiq.com/)
+    - Used to create the wireframes for the project.
+- [Favicon.io](https://favicon.io/)
+    - Used to create favicon's for my website
+- [onlineimagetool](https://www.onlineimagetool.com/en/resize-png-jpg-webp-gif)
+    - Allowed me to compress my images and change image format to increase performance and page load.
+- [W3C Markup Validation Service](https://validator.w3.org/) 
+    - Used to validate all HTML code written and used in this webpage.
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    - Used to validate all CSS code written and used in this webpage.
+- [Prettier.io](https://prettier.io/)
+    - Used to format my code.
+- [Canva color wheel](https://www.canva.com/colors/color-wheel/)
+    - Used to create colour pallette for the site.
+- [Gradient.io](https://cssgradient.io/)
+    - Used to create the gradient used accross the site.
+- [AmIResponsive](http://ami.responsivedesign.is/)
+    - Used to generate repsonsive image used in README file.
+## **Bug Fixes and Issues**
 There were multiple bugs encountered during the development of this project. These were listed along with the methods employed as solutions to each.
 
-## Working with percentages
-### Issue
-
+### Working with percentages
+---
 * An issue I found when working with percentages was scaling. 
 * When adjusting the zoom/resolution for the site, I found that some of the divs were scaling improperly. They were shrinking too a point where they could not hold their content.
 * The title div was changing size and proportion to where it was not consistent with the design theme for the rest of the home page. (See fig. 1 & 2 below)
+### Issue
 
-|![percentages bug 1\label{percentages fig. 1}](docs/images/percentages/percentages%20bug%20%231.jpg)|
+
+|![percentages bug 1\label](docs/images/percentages/percentages%20bug%20%231.jpg)|
 |:--:|
 | <strong>Fig.1 Improper scaling when zooming out</strong>  |
 
@@ -152,19 +285,20 @@ There were multiple bugs encountered during the development of this project. The
 
 |![percentages bug 2](docs/images/percentages/percentages%20bug%20%232.jpg)|
 |:--:|
-| <strong>Fig.1 Improper scaling when zooming in</strong>  |
+| <strong>Fig.2 Improper scaling when zooming in</strong>  |
 
 
 ### Fix 
 * In order to fix the issue, I started using fixed sizing in pixels for select element widths and heights. 
 * I had previously believed that using percentages and vh would be more responsive, but now I can see that using these measurements in the wrong place on a site can create unpredictable site behaviour.
 
-## Link paths
+### Link paths
+---
 * An issue I found when launching my site to github pages were that one of my pictures was not loading in correctly.
 * I investigated the issue and found that I had referenced the image using relative pathing instead of absolute.
 
 ### Issue
-|![percentages bug 1\label{percentages fig. 1}](docs/images/link-paths/broken-link-1.png)|
+|![percentages bug 1\label](docs/images/link-paths/broken-link-1.png)|
 |:--:|
 | <strong>Fig.3 Image not loading in correctly</strong>  |
 
