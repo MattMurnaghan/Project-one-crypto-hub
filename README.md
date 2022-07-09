@@ -1,6 +1,6 @@
 # **Crypto Hub**
 
-Welcome to **[crypto hub!](https://mattmurnaghan.github.io/Project-one-crypto-hub/index.html)** 
+Welcome to **[crypto hub!](https://mattmurnaghan.github.io/crypto-hub/index.html)** 
 
 ![responsive-demo](docs/images/responsive/responsiveness-demo.png)
 
