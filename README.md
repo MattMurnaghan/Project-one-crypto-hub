@@ -469,7 +469,23 @@ In the end, I came out with some pretty solid scores across the board, scoring a
 
 ## **HTML & CSS Validation**
 
+I completed HTML and CSS validation regularly to avoid any major build-up of errors to solve towards the end of the development process. 
 
+|![css-validation](docs/images/validation/css.jpg) |
+|:--:|
+| <strong>CSS validation</strong>  |
+
+|![html-validation](docs/images/validation/homepage.jpg) |
+|:--:|
+| <strong>HTML validation</strong>  |
+
+All pages passed HTML validation with no errors.
+
+The CSS file passed with no errors.
+
+Please see the link below for the validation screenshots:
+
+[validation-screenshots](docs/images/validation/)
 
 ## **Bug Fixes and Issues**
 There were multiple bugs encountered during the development of this project. These were listed along with the methods employed as solutions to each.
@@ -480,7 +496,6 @@ There were multiple bugs encountered during the development of this project. The
 * When adjusting the zoom/resolution for the site, I found that some of the divs were scaling improperly. They were shrinking to a point where they could not hold their content.
 * The title div was changing size and proportion to where it was not consistent with the design theme for the rest of the home page. (See fig. 1 & 2 below)
 ### Issue
-
 
 |![percentages bug 1\label](docs/images/percentages/percentages%20bug%20%231.jpg)|
 |:--:|
@@ -527,3 +542,34 @@ Here is the resulting image, loading in correctly
 |![percentages bug 1\label{percentages fig. 1}](docs/images/link-paths/broken-link-fix.png)|
 |:--:|
 | <strong>Fig.4 Image loading in correctly</strong>  |
+
+
+## **Deployment**
+
+I deployed and hosted the website using GitHub Pages, a feature provided by GitHub for every repository. If you are looking to deploy your own site with GitHub Pages, follow these steps:
+
+1. Log into GitHub and open your selected repository with your chosen website assets.
+2. Click the settings tab and navigate to the Pages section on the left-hand side.
+3. For source selection, select the branch you want to host, in my case, it was the master branch, and press save.
+5. Wait a few minutes for the automatic deployment process to complete and then click the link provided at the top of the pages section to access your site and share it with others.
+
+### Further Development
+---
+If you wish to further develop this site on your own branch, please restrict any changes you make to be to the HTML and CSS only, as the content is not intended to be updated by unvalidated sources.
+
+## **Credits**
+
+I made use of many different resources when researching the content for and developing this site.
+
+* I used [Investopedia](https://www.investopedia.com/) for a lot of different cryptocurrency information
+* I used [Stack Overflow](https://stackoverflow.com/) for many different small tips for CSS and HTML.
+* For the burger menu, I adapted code from a video found on the Pure Code youtube channel: 
+    - [Burger menu without javascript](https://www.youtube.com/watch?v=XM7sEpl0f7c)
+
+* For the animated downwards arrow, I adapted code from the LAD youtube channel:
+    - [Animated downwards arrow](https://www.youtube.com/watch?v=wBzDIR2DkPE)
+
+
+## **Acknowledgments**
+
+I want to give a big thanks to my mentor Guido Cecilio. He was fantastic and helped me a lot when it came to fixing accessibility issues and other troubleshooting. He did a fantastic job explaining the high-level concepts of the development process to me. 
